@@ -14,8 +14,8 @@ A flexible CLI tool that translates Markdown documents between English and Chine
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/markdown-translation-cli
-cd markdown-translation-cli
+git clone https://github.com/loftwah/eng-cn-translate
+cd eng-cn-translate
 ```
 
 2. Install dependencies:
@@ -73,6 +73,27 @@ Each translation includes a quality assessment with:
 - Format preservation verification
 - Specific issues (if any)
 
+## Advanced Usage
+
+### API Configuration
+
+You can configure different API endpoints by setting these environment variables:
+
+```bash
+OPENAI_API_BASE=https://your-api-endpoint
+OPENAI_API_MODEL=gpt-4  # or your preferred model
+```
+
+### Quality Control
+
+Each translation is automatically evaluated for:
+- Semantic accuracy
+- Format preservation
+- Cultural appropriateness
+- Technical terminology accuracy
+
+Quality scores below 80 will generate warnings in the output.
+
 ## Requirements
 
 - Python 3.7+
@@ -82,8 +103,12 @@ Each translation includes a quality assessment with:
 
 ## License
 
-[Your chosen license]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
