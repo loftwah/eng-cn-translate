@@ -1,6 +1,6 @@
 # Markdown Translation CLI
 
-A flexible CLI tool that translates Markdown documents between English and Chinese while preserving formatting. It works with any OpenAI-compatible API (including GPT-4, GPT-4o, Azure OpenAI, and self-hosted APIs like Ollama or LocalAI).
+I developed this CLI tool to solve the challenge of accurately translating technical documentation between English and Chinese while maintaining perfect Markdown formatting. The tool leverages advanced language models through OpenAI-compatible APIs to provide high-quality translations that preserve not just the meaning, but also complex elements like code blocks, tables, and technical terminology. What sets it apart is its built-in quality assurance system that automatically scores translations and flags potential issues. Whether you're using OpenAI's GPT-4, Azure OpenAI, or self-hosted solutions like Ollama or LocalAI, this tool provides a flexible solution for technical document translation.
 
 ## Features
 
